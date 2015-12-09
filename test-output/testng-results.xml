@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="44638" started-at="2015-12-09T04:01:35Z" finished-at="2015-12-09T04:02:20Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="44638" started-at="2015-12-09T04:01:35Z" finished-at="2015-12-09T04:02:20Z">
+      <class name="PracticeTestNJ.YmailTest">
+        <test-method status="PASS" signature="openbrowser()[pri:0, instance:PracticeTestNJ.YmailTest@649d209a]" name="openbrowser" is-config="true" duration-ms="13706" started-at="2015-12-08T22:01:35Z" finished-at="2015-12-08T22:01:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openbrowser -->
+        <test-method status="PASS" signature="login()[pri:0, instance:PracticeTestNJ.YmailTest@649d209a]" name="login" duration-ms="16025" started-at="2015-12-08T22:01:49Z" finished-at="2015-12-08T22:02:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="logout()[pri:0, instance:PracticeTestNJ.YmailTest@649d209a]" name="logout" duration-ms="11018" started-at="2015-12-08T22:02:05Z" depends-on-methods="PracticeTestNJ.YmailTest.login" finished-at="2015-12-08T22:02:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method status="PASS" signature="closebrowser()[pri:0, instance:PracticeTestNJ.YmailTest@649d209a]" name="closebrowser" is-config="true" duration-ms="3879" started-at="2015-12-08T22:02:16Z" finished-at="2015-12-08T22:02:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closebrowser -->
+      </class> <!-- PracticeTestNJ.YmailTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
